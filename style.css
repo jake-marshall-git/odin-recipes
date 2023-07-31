@@ -2,10 +2,38 @@ html {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color: blanchedalmond;
   margin: auto;
-  width: 50%;
+  width: 70%;
 }
 
 .main-img {
   width: 400px;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-link {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.main-link a {
+  text-decoration: none;
+}
+
+.centered {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+}
+
+.home-link {
+  display: inline;
+  float: right;
 }
