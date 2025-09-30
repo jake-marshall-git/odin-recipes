@@ -2,37 +2,40 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: blanchedalmond;
   margin: auto;
-  width: 70%;
+  width: 500px;
 }
 
 .main-img {
-  width: 400px;
+  width: 300px;
   height: auto;
   display: block;
   margin: auto;
 }
 
-.main-link {
+.img-banner {
+  width: 100%;
+  height: auto;
   display: block;
-  text-align: center;
-  font-size: 22px;
-  font-weight: bold;
+  margin: auto;
 }
 
-.main-link a {
-  text-decoration: none;
-}
-
-.centered {
-  display: block;
-  text-align: center;
+.img-banner img{
+  width: 30%;
+  height: auto;
+  display: inline;
 }
 
 h1 {
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
   display: inline;
 }
 
 .home-link {
-  display: inline;
+  display: block;
   float: right;
 }
